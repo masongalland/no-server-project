@@ -1,0 +1,8 @@
+[
+    {
+        "name": "cow",
+        "id": 1,
+        "sound": "./animalSounds/cow.wav"
+
+    }
+]

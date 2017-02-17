@@ -1,0 +1,24 @@
+.animal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.animals {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    cursor: pointer;
+}
+.animal-title {
+    margin-top: 10px;
+}
+.learn-heading {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.learn-state{
+    position: absolute;
+    top: 115px;
+}

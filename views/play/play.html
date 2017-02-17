@@ -1,0 +1,15 @@
+<main class='play-state'> 
+    <div animate-dir class='play-random'>
+        <h1 class='click-to-hear'>Click the ear to hear an animal sound</h1>
+        <br/>
+        <img id="ear" ng-click="makeNoise(random[count])" src='./ear.png'>
+    </div>
+    <h1 class='play-heading'>Can you guess which animal you heard?</h1>
+
+    <div class='animal-container'>
+        <div class='animals' ng-repeat="animal in animals">
+            <img ng-click="guess(animal)" ng-src="{{animal.image}}" alt="{{animal.name}}">
+            <div><h2>{{animal.name}}</h2></div>
+        </div>
+    </div>
+</main>

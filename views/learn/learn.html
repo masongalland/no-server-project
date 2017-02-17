@@ -1,0 +1,11 @@
+<main class='learn-state'>  
+     
+<h1 class='learn-heading'>Click an Animal to Hear Its Noise!</h1>
+
+<div class='animal-container'>
+    <div class='animals' ng-repeat="animal in animals" ng-click="makeNoise(animal)">
+        <img ng-src="{{animal.image}}" alt="{{animal.name}}">
+        <div><h2>{{animal.name}}</h2></div>
+    </div>
+</div>
+</main>

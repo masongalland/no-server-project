@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./styles/reset.css" rel="stylesheet">
+        <link href="./styles/styles.css" rel="stylesheet">
+        <link href="./styles/learn.css" rel="stylesheet">
+        <link href="./styles/play.css" rel="stylesheet">
+        <link href="./styles/animate.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href='https://cdn.jsdelivr.net/sweetalert2/6.4.2/sweetalert2.css'>
+        
+        
+        
+    </head>
+    <body ng-controller="mainCtrl">
+        <header>
+            <div animate-dir class='logo'>
+                <a class='home-button' id='home-btn' href='/#!/'>
+                    <img id="logo-tada" src="./logo.png">
+                    <h1 class='title'>Baa, Moo, Cockadoodle-doo!</h1>
+                </a>
+            </div>
+            <nav class='wideNav'>
+                <a href='/#!/learn'>Learn</a>
+                <a href='/#!/play'>Play</a>
+            </nav>
+        </header>
+
+        <ui-view></ui-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+    <script src="https://cdn.jsdelivr.net/sweetalert2/6.4.2/sweetalert2.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/controller.js"></script>
+    <script src="./js/dataService.js"></script>
+    <script src="./views/home/homeLearnDirective.js"></script>
+    <script src="./views/home/homePlayDirective.js"></script>
+    <script src="./views/learn/learnCtrl.js"></script>
+    <script src="./views/play/playCtrl.js"></script>
+    <script src="./js/animateDir.js"></script>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Schoolbell|Walter+Turncoat');
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Walter Turncoat', cursive;
+    color: #1f4663;
+    
+}
+
+
+body {
+    background-color: #d7edfa;
+}
+
+header {
+    width: 100%;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #1f4663;
+    margin-bottom: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Walter Turncoat', cursive;
+    
+}
+.title {
+    font-size: 26px;
+    color: white;
+    margin-left: 20px;
+}
+.logo {
+    width: 320px;
+}
+.home-button {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+/*#logo-tada:hover {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+    -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}*/
+
+.home-hero {
+    width: 100%;
+    color: white;
+}
+.learn-hero {
+    width: 100%;
+    height: calc(50vh - 55px);
+}
+.play-hero {
+    width: 100%;
+    height: calc(50vh - 55px);
+}
+
+
+
+@media (min-width: 700px) {
+    .learn-hero {
+        width: 50%;
+        height: calc(100vh - 110px);
+        float: left;
+        border-right: 2px solid #1f4663;   
+    }
+    .play-hero {
+        width: 50%;
+        height: calc(100vh - 110px);
+        float: left;
+    }
+    
+}
