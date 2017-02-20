@@ -2,6 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    /*margin: 0px 20px;*/
+    background-color: #b0d1e4;
+    padding: 0px 20px 40px 20px;
+    width: 90%
 }
 .animals {
     display: flex;
@@ -15,10 +19,38 @@
 .learn-heading {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 40px;
     font-size: 24px;
     text-decoration: underline;
+    /*background-color: #b0d1e4;
+    width: 90%;
+    margin: auto;
+    padding: 10px 20px;*/
+    
 }
 .learn-state{
-    position: absolute;
-    top: 115px;
+    margin: 85px 20px 65px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 700px) {
+    .animal-container {
+        width: 85%;
+        margin: auto;
+    }
+    .animals {
+        margin: 0px 5px;
+    }
+    .learn-state {
+        margin-top: 130px;
+    }
+    .learn-heading {
+        font-size: 30px;
+        /*width: 85%;*/
+        margin-bottom: 50px;
+        
+    }
+
 }

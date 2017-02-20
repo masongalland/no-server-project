@@ -9,6 +9,8 @@
         <link href="./styles/learn.css" rel="stylesheet">
         <link href="./styles/play.css" rel="stylesheet">
         <link href="./styles/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/font-awesome-4.7.0/css/font-awesome.min.css">
+
         
         <link rel="stylesheet" href='https://cdn.jsdelivr.net/sweetalert2/6.4.2/sweetalert2.css'>
         
@@ -24,12 +26,27 @@
                 </a>
             </div>
             <nav class='wideNav'>
-                <a href='/#!/learn'>Learn</a>
-                <a href='/#!/play'>Play</a>
+                <a class ='learn-btn' href='/#!/learn'>Learn</a>
+                <a class = 'play-btn' href='/#!/play'>Play</a>
             </nav>
+            <div animate-dir class="menu-button">
+                <div class="line"></div>
+                <div class="line"></div>
+            <div class="line"></div>            
+        </div>
         </header>
+        <div animate-dir class='mobile-menu'>
+            <i id='close' class="fa fa-times fa-3x" aria-hidden="true"></i>
+            <a class='mobile-menu-items' href='/#!/'>Home</a>            
+            <a class='mobile-menu-items' href='/#!/learn'>Learn</a>
+            <a class='mobile-menu-items' href='/#!/play'>Play</a>
+            
+            
+        </div>
 
         <ui-view></ui-view>
+        <footer>&copy Mason Galland</footer>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     

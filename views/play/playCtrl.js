@@ -15,7 +15,7 @@ angular.module("app").controller("playCtrl", function($scope, mainSrv){
             }
             swal(
                 'Good job!',
-                'Click the ear to hear a new sound!',
+                'Click "ok" to continue playing!',
                 'success'
             )
         }
