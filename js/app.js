@@ -1,6 +1,5 @@
 angular.module("app", ['ui.router'])
     .config(function ($stateProvider, $urlRouterProvider) {
-        $urlRouterProvider.otherwise('/#!');
         $stateProvider
             .state('home',{
                 url:'/',
@@ -16,4 +15,7 @@ angular.module("app", ['ui.router'])
                 templateUrl: "./views/learn/learn.html",
                 controller: "learnCtrl"
             });
+
+        $urlRouterProvider.otherwise('/');
+            
     })
