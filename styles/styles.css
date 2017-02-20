@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Schoolbell|Walter+Turncoat');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Schoolbell|Walter+Turncoat');
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Walter Turncoat', cursive;
@@ -136,6 +136,7 @@ p {
 .wideNav {
     display: none;
     margin-right: 40px;
+    font-size: 20px;
 
 }
 .learn-btn {
@@ -187,6 +188,7 @@ footer {
     background-color: #1f4663;
     color: white;
     padding: 9px 0px 0px 20px;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -221,6 +223,15 @@ footer {
     }
     .title {
         font-size: 30px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .home-heading {
+        font-size: 30px;
+    }
+    .button {
+        font-size: 25px;
     }
     
 }

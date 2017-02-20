@@ -21,7 +21,7 @@ angular.module('app')
                 $('.menu-button').click(function(){
                     $('.mobile-menu').addClass('animated fadeInRightBig display');
                 })
-                $('#close, .mobile-menu-items').on('click',function(){
+                $('#close, .mobile-menu-items').on('click',function(){                    
                     $('.mobile-menu').removeClass('animated fadeInRightBig display');
                 })
 
